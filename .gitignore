@@ -1,0 +1,23 @@
+# exclude .env file
+.env
+
+# exclude node modules
+node_modules
+
+.VSCodeCounter
+
+# exlude log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+
+# exlude editor directory and files
+.idea
+.vs
+
+# misc
+.nyc_output
+coverage
+
+temp/*.pdf
